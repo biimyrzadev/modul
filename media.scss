@@ -11,7 +11,7 @@
         margin-top: 413px;
       }
 
-      &--titile {
+      &--title {
         padding: 124px 0 0 0;
       }
     }
@@ -32,16 +32,16 @@
     .hero {
       margin-bottom: 40vmin;
 
-      .hero--bg {
+      &--bg {
         margin-left: 390px;
       }
 
-      .hero--title {
+      &--title {
         padding: 82px 0 0 0;
       }
 
-      .hero--bloke {
-        //margin-top: 312px;
+      &--bloke {
+        margin-top: 312px;
       }
     }
   }
@@ -53,8 +53,9 @@
       &--link {
         display: none;
       }
-      &--btn{
-        nav{
+
+      &--btn {
+        nav {
           display: block;
         }
       }
@@ -101,12 +102,11 @@
   }
   #holiday {
     .holiday {
-      &--gen {
-        &--bloke {
-          height: 275px;
-          padding: 15px;
-
+      &--title {
+        &--gen {
           &--bloke {
+            height: 275px;
+            padding: 15px;
             margin: 29px 0;
           }
         }
@@ -219,6 +219,11 @@
     .holiday {
       &--gen {
         display: block;
+
+        &--bloke {
+          width: 50%;
+          height: 400px;
+        }
       }
     }
   }
@@ -284,6 +289,17 @@
       }
     }
   }
+
+  #hero {
+    .hero {
+      margin-bottom: 57vmin;
+
+      &--bg {
+        margin-left: 168px;
+      }
+    }
+  }
+
   #swiper {
     .swiper {
       &--bloke {

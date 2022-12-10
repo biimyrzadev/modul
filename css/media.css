@@ -2,7 +2,7 @@
   #hero .hero--bloke {
     margin-top: 413px;
   }
-  #hero .hero--titile {
+  #hero .hero--title {
     padding: 124px 0 0 0;
   }
 }
@@ -13,11 +13,14 @@
   #hero .hero {
     margin-bottom: 40vmin;
   }
-  #hero .hero .hero--bg {
+  #hero .hero--bg {
     margin-left: 390px;
   }
-  #hero .hero .hero--title {
+  #hero .hero--title {
     padding: 82px 0 0 0;
+  }
+  #hero .hero--bloke {
+    margin-top: 312px;
   }
 }
 @media (max-width: 768px) {
@@ -51,11 +54,9 @@
     height: 22%;
     line-height: 70px;
   }
-  #holiday .holiday--gen--bloke {
+  #holiday .holiday--title--gen--bloke {
     height: 275px;
     padding: 15px;
-  }
-  #holiday .holiday--gen--bloke--bloke {
     margin: 29px 0;
   }
 }
@@ -124,6 +125,10 @@
   #holiday .holiday--gen {
     display: block;
   }
+  #holiday .holiday--gen--bloke {
+    width: 50%;
+    height: 400px;
+  }
 }
 @media (max-width: 415px) {
   #swiper .swiper--bloke--tit h1 {
@@ -149,6 +154,12 @@
   #header .header--btn button {
     padding: 13px 9px;
     line-height: 0;
+  }
+  #hero .hero {
+    margin-bottom: 57vmin;
+  }
+  #hero .hero--bg {
+    margin-left: 168px;
   }
   #swiper .swiper--bloke button {
     padding: 6px 7px;
