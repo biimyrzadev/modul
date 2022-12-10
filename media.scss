@@ -1,0 +1,323 @@
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+  #hero {
+    .hero {
+      &--bloke {
+        margin-top: 413px;
+      }
+
+      &--titile {
+        padding: 124px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #header {
+    .header {
+      &--link {
+        button {
+          padding: 0 15px;
+        }
+      }
+    }
+  }
+  #hero {
+    .hero {
+      margin-bottom: 40vmin;
+
+      .hero--bg {
+        margin-left: 390px;
+      }
+
+      .hero--title {
+        padding: 82px 0 0 0;
+      }
+
+      .hero--bloke {
+        //margin-top: 312px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    .header {
+      &--link {
+        display: none;
+      }
+      &--btn{
+        nav{
+          display: block;
+        }
+      }
+    }
+  }
+  #hero {
+    .hero {
+      &--title {
+        padding: 109px 0 0 0;
+        width: 80%;
+        z-index: 1;
+      }
+
+      &--bg {
+        margin-left: 343px;
+      }
+
+      &--bloke {
+        margin-top: 288px;
+      }
+    }
+  }
+  #why {
+    .why {
+      flex-wrap: wrap-reverse;
+    }
+  }
+  #best {
+    .best {
+      &--gen {
+        &--bloke {
+          width: 40%;
+          height: 22%;
+          line-height: 70px;
+        }
+
+        &--bloke1 {
+          width: 40%;
+          height: 22%;
+          line-height: 70px;
+        }
+      }
+    }
+  }
+  #holiday {
+    .holiday {
+      &--gen {
+        &--bloke {
+          height: 275px;
+          padding: 15px;
+
+          &--bloke {
+            margin: 29px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #hero {
+    .hero {
+      margin-bottom: 40vmin;
+
+      &--bg {
+        margin-left: 254px;
+      }
+
+      &--title {
+        h1 {
+          font-size: 2vmax;
+        }
+      }
+
+      &--bloke {
+        margin-top: 199px;
+      }
+    }
+  }
+  #best {
+    .best {
+      &--gen {
+        &--bloke {
+          width: 50%;
+          height: 22%;
+          line-height: 70px;
+        }
+
+        &--bloke1 {
+          width: 50%;
+          height: 22%;
+          line-height: 70px;
+        }
+      }
+    }
+  }
+  #footer {
+    .footer {
+      &--bloke {
+        display: block;
+
+        &--title {
+          width: 100%;
+          line-height: 25px;
+        }
+      }
+
+      &--line {
+        width: 100%;
+        margin-left: 0;
+      }
+
+      &--gen {
+        &--in {
+          padding: 16px;
+          margin-left: 33px;
+        }
+
+        p {
+          margin-left: 54px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #hero {
+    .hero {
+      margin-bottom: 53vmin;
+
+      &--bloke {
+        margin-top: 200px;
+      }
+    }
+  }
+  #book {
+    .book {
+      display: block;
+
+      &--title {
+        width: 100%;
+      }
+    }
+  }
+  #footer {
+    .footer {
+      &--gen {
+        &--in {
+          margin-left: 0;
+        }
+
+        p {
+          padding: 28px 0;
+          margin-left: 49px;
+        }
+      }
+    }
+  }
+  #holiday {
+    .holiday {
+      &--gen {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+
+}
+
+@media (max-width: 415px) {
+  #swiper {
+    .swiper {
+      &--bloke {
+        &--tit {
+          h1 {
+            font-size: 1vmax;
+          }
+        }
+
+        p {
+          font-size: 1.1vmax;
+          width: 100%;
+          line-height: 13px;
+        }
+      }
+    }
+  }
+  #footer {
+    .footer {
+      &--bloke {
+        &--a {
+          &--company {
+            line-height: 15px;
+
+            h2 {
+              margin-bottom: -8px;
+            }
+          }
+        }
+      }
+
+      &--gen {
+        &--in {
+          width: 90%;
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+}
+
+@media (max-width: 375px) {
+  #header {
+    .header {
+      &--btn {
+        button {
+          padding: 13px 9px;
+          line-height: 0;
+        }
+      }
+    }
+  }
+  #swiper {
+    .swiper {
+      &--bloke {
+        button {
+          padding: 6px 7px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #hero {
+    .hero {
+      margin-bottom: 57vmin;
+
+      &--bg {
+        margin-left: 126px;
+      }
+    }
+  }
+  #why {
+    .why {
+      &--tit {
+        &--gen {
+          &--sub {
+            line-height: 22px;
+          }
+        }
+
+        h1 {
+          line-height: 32px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,247 @@
+@mixin p{
+  font-weight: 400;
+  font-size: 1.5vmax;
+  color: $a;
+}
+@mixin p1{
+  font-weight: 400;
+  font-size: 1.6vmax;
+  line-height: 26px;
+  color: $a;
+}
+
+@mixin h1{
+  font-weight: 700;
+  font-size: 3.5vmax;
+  line-height: 52px;
+}
+
+@mixin h4{
+  font-weight: 700;
+  font-size: 1.6vmax;
+  line-height: 26px;
+  color: $a;
+}
+
+@mixin center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin end{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+@mixin flex{
+  display: flex;
+  align-items: flex-start;
+}
+
+@mixin around{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@mixin start{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+@mixin between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin header-btn{
+  padding: 10px 32px;
+  border-radius: 10px;
+  background-color:$blue;
+  @include h4 ;
+  color: $wh;
+  @keyframes bounce {
+    0%, 20%, 60%, 100% {
+      transform: translateY(0);
+    }
+
+    40% {
+      transform: translateY(-20px);
+    }
+
+    80% {
+      transform: translateY(-10px);
+    }
+  }
+  &:hover{
+    background: #1919ce;
+    box-shadow: 0 5px 5px #1a1a77, 0 0 10px #3434ab, 0 0 30px #27279a, 0 0 60px #21219a;
+    transform: scale(1.1);
+    animation: bounce 2s infinite;
+  }
+}
+
+@mixin header-a{
+  @include h4;
+  margin: 0 20px;
+  transition: .4s;
+  &:hover{
+    color: red;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+  }
+}
+
+@mixin hero-tit{
+  font-weight: 700;
+  font-size: 5vmax;
+  span{
+    color:$blue;
+  }
+
+}
+
+@mixin hero-btn{
+  padding: 8px 15px;
+  font-size: 1.3vmax;
+  border-radius: 10px;
+  background-color:$blue;
+  color: $wh;
+  transition: .5s;
+  &:hover{
+    border: 2px solid #1212d3;
+    transform: scale(1.1);
+    background: #1919ce;
+    box-shadow: 0 5px 5px #1a1a77, 0 0 20px #3434ab, 0 0 60px #27279a, 0 0 150px #21219a;
+  }
+}
+
+@mixin why-tit{
+  &--tit{
+    line-height: 10px;
+    h5{
+      @include p1();
+    }
+    h1{
+      @include h1();
+    }
+    p{
+      @include p1();
+      margin: 20px 0;
+    }
+    &--gen{
+      display: flex;
+      margin-bottom: 20px;
+      &--sub{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 32px;
+        margin: 0 40px 0 0;
+        h3{
+          @include h4;
+          &:hover{
+            color: #0600AE;
+          }
+        }
+      }
+    }
+    button{
+      @include hero-btn;
+    }
+  }
+}
+
+@mixin best-tit{
+  &--title{
+    flex-direction: column;
+    text-align: center;
+    h5{
+      @include p1;
+    }
+    h1{
+      @include h1();
+    }
+    p{
+      width: 70%;
+      margin-left: 15%;
+      @include p();
+    }
+  }
+}
+
+@mixin gen-bl{
+  img{
+    width: 50%;
+  }
+  &--bloke{
+    cursor: default;
+    margin: 10px 10px;
+    width: 20%;
+    height: 32%;
+    background: #FAFAFF;
+    border-radius: 0 0 50px 50px;
+    padding: 50px 20px;
+    text-align: center;
+    line-height: 80px;
+    h1{
+      font-weight: 700;
+      font-size: 2.5vmax;
+      line-height: 38px;
+      margin-bottom: 15px;
+    }
+    p{
+      font-weight: 400;
+      font-size: 1.3vmax;
+      line-height: 24px;
+    }
+    transition: .5s;
+    &:hover{
+      &:hover{
+        border: 1px solid #5252cb;
+        transform: scale(1);
+        background: transparent;
+        box-shadow: 0 5px 5px #4f4fec, 0 0 10px #4040c5, 0 0 20px #4141da, 0 0 30px #3b3be8;
+      }
+    }
+  }
+}
+
+@mixin gen-bl1{
+  img{
+    width: 50%;
+  }
+  &--bloke1{
+    width: 20%;
+    height: 32%;
+    background: #FAFAFF;
+    border-radius:  50px 50px 0 0;
+    padding: 50px 20px;
+    text-align: center;
+    line-height: 80px;
+    h1{
+      font-weight: 700;
+      font-size: 2.5vmax;
+      line-height: 38px;
+      margin-bottom: 15px;
+    }
+    p{
+      font-weight: 400;
+      font-size: 1.3vmax;
+      line-height: 24px;
+    }
+    transition: .5s;
+    &:hover{
+      &:hover{
+        border: 1px solid #5252cb;
+        transform: scale(1);
+        background: transparent;
+        box-shadow: 0 5px 5px #4f4fec, 0 0 10px #4040c5, 0 0 20px #4141da, 0 0 30px #3b3be8;
+      }
+    }
+
+  }
+}
+
+
+
